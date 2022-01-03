@@ -9,28 +9,31 @@
     <title>Ecomerce</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand">Game Land</a>
-                <nav class="nav">
-                    <a class="nav-link active" aria-current="page" href="#">Nitendo</a>
-                    <a class="nav-link" href="#">Sega</a>
-                    <a class="nav-link" href="#">Konami</a>
-                    <a class="nav-link ">Capcom</a>
-                </nav>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-danger" type="submit">Search</button>
+            <a class="navbar-brand" href="#">Game Land</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nitendo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sega</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Konami</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link">Capcom</a>
+                    </li>
+                </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-danger" type="submit">Search</button>
                 </form>
-        </div>
-    </nav>
-    <main>
-        <div class="containerListaProdutos" id="listProdutos">
-            <ul>
-
-            </ul>
-        </div>
-    </main>
+            </div>
+    </div>
+</nav>
     <script src="index.js"></script>
 </body>
 </html>
